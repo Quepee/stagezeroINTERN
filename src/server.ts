@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 
 app.get('/', (req: Request, res: Response) => {
-  const email = process.env.EMAIL || 'flightgoals@gmail.com';
+  const email = process.env.EMAIL || 'xcellersqp@gmail.com';
   const githubUrl = process.env.GITHUB_URL || 'https://github.com/Quepee/stagezeroINTERN';
   const currentDatetime = new Date().toISOString();
 
